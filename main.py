@@ -1,20 +1,15 @@
 from flask import Flask, render_template, request, jsonify, redirect, url_for
 import pyrebase
-
+from dotenv import load_dotenv
+import os
+import json
 app = Flask(__name__)
 
-# Firebase Configuration
-config = {
-  "apiKey": "AIzaSyBmTfbl-jTJW28Co6BvWapaf99rAUF9SmA",
-  "authDomain": "memo-project-e982f.firebaseapp.com",
-  "projectId": "memo-project-e982f",
-  "storageBucket": "memo-project-e982f.firebasestorage.app",
-  "messagingSenderId": "855875391052",
-  "appId": "1:855875391052:web:3de9a431c8288f2a4a6ee9",
-  "measurementId": "G-4YGPNVDMFX",
-  "databaseURL": "https://memo-project-e982f.firebaseio.com"  # Corrected
-}
 
+# Firebase Configuration
+load_dotenv()
+config = os.getenv("CONFIG")
+config = json.loads(config)
 firebase = pyrebase.initialize_app(config)
 auth = firebase.auth()
 
