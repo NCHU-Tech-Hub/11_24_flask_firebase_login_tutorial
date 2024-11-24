@@ -29,28 +29,28 @@ def get_user_info(user):
 # Sign Up Route (Email and Password Sign Up)
 @app.route('/signup', methods=['POST'])
 def signup():
-    # try:
+    try:
         email = request.form.get('email')
         password = request.form.get('password')
         
         user = auth.create_user_with_email_and_password(email, password)
         
         return render_template('interface.html', **get_user_info(user))
-    # except Exception as e:
-        # return render_template('error.html', error="This account already exists. Try logging in.")
+    except Exception as e:
+        return render_template('error.html', error="This account already exists. Try logging in.")
 
 # Sign In Route (Email and Password Sign In)
 @app.route('/signin', methods=['POST'])
 def signin():
-    # try:
+    try:
         email = request.form.get('email')
         password = request.form.get('password')
         
         user = auth.sign_in_with_email_and_password(email, password)
         
         return render_template('interface.html', **get_user_info(user))
-    # except Exception as e:
-        # return render_template('error.html', error="No account found. Please sign up before logging in.")
+    except Exception as e:
+        return render_template('error.html', error="No account found. Please sign up before logging in.")
 
 if __name__ == '__main__':
     app.run(debug=True)
