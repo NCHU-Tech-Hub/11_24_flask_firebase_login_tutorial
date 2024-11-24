@@ -6,9 +6,12 @@
   </div>
   <div>
     <h2>Logged in/ signed up</h2>
-    ![image](https://github.com/user-attachments/assets/95c89988-ddab-4629-b5c8-d9992fe47992)
+    <img src="https://github.com/user-attachments/assets/95c89988-ddab-4629-b5c8-d9992fe47992" alt="Image"/>
   </div>
-  
+  <div>
+    <h2>Error handling(account already exists)</h2>
+    <img src="https://github.com/user-attachments/assets/b195f624-ab23-4744-b0ea-a6231d5c1732" alt="Image"/>
+  </div>
 </div>
 
 <h2>Installation</h2>
