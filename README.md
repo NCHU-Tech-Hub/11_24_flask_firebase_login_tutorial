@@ -1,6 +1,9 @@
 <div> 
   <h1>Important links</h1>
-  <h2>Project IDX: <a>https://idx.dev/</a></h2>
+  <a href="https://idx.dev/">Project IDX</a>
+  <a href="https://firebase.google.com/">Firebase website</a>
+  <a href="https://www.youtube.com/watch?v=rclSyEks-HY">Firebase tutorial video</a>
+  <a href="https://www.youtube.com/watch?v=CkCOY4BgAjY">Environment setup tutorial video</a>
 </div>
 
 
