@@ -1,12 +1,12 @@
-<div> 
-  <h1>Important links</h1>
-  <a href="https://idx.dev/">Project IDX</a>
-  <a href="https://firebase.google.com/">Firebase website</a>
-  <a href="https://www.youtube.com/watch?v=rclSyEks-HY">Firebase tutorial video</a>
-  <a href="https://www.youtube.com/watch?v=CkCOY4BgAjY">Environment setup tutorial video</a>
-</div>
-
-
+<section class="important-links">
+  <h1>Important Links</h1>
+  <ul>
+    <li><a href="https://idx.dev/" target="_blank" rel="noopener noreferrer">Project IDX</a></li>
+    <li><a href="https://firebase.google.com/" target="_blank" rel="noopener noreferrer">Firebase Website</a></li>
+    <li><a href="https://www.youtube.com/watch?v=rclSyEks-HY" target="_blank" rel="noopener noreferrer">Firebase Tutorial Video</a></li>
+    <li><a href="https://www.youtube.com/watch?v=CkCOY4BgAjY" target="_blank" rel="noopener noreferrer">Environment Setup Tutorial Video</a></li>
+  </ul>
+</section>
 <div style="display: flex; justify-content: center; align-items: center; width: 100%;">
   <h1>Simple demo</h1> 
   <div>
