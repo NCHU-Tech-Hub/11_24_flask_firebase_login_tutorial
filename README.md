@@ -1,6 +1,6 @@
 <div> 
   <h1>Important links</h1>
-  <h2>Project IDX: <a>https://idx.dev/</a>></h2>
+  <h2>Project IDX: <a>https://idx.dev/</a></h2>
 </div>
 
 
