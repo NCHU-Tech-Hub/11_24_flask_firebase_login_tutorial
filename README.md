@@ -7,6 +7,9 @@
     <li><a href="https://www.youtube.com/watch?v=CkCOY4BgAjY" target="_blank" rel="noopener noreferrer">Environment Setup Tutorial Video</a></li>
   </ul>
 </section>
+<h1>Idea</h1>
+![image](https://github.com/user-attachments/assets/7d099264-6b3e-4e20-91bb-d34a63727e85)
+
 <div style="display: flex; justify-content: center; align-items: center; width: 100%;">
   <h1>Simple demo</h1> 
   <div>
