@@ -1,3 +1,9 @@
+<div> 
+  <h1>Important links</h1>
+  <h2>Project IDX: <a>https://idx.dev/</a>></h2>
+</div>
+
+
 <div style="display: flex; justify-content: center; align-items: center; width: 100%;">
   <h1>Simple demo</h1> 
   <div>
