@@ -8,7 +8,8 @@
   </ul>
 </section>
 <h1>Idea</h1>
-<img src="https://github.com/user-attachments/assets/7d099264-6b3e-4e20-91bb-d34a63727e85" style="height=50px;"/>
+
+<img src="https://github.com/user-attachments/assets/f79cf821-8eee-459e-97bb-6e38c03dea39" style="height:500px;"/>
 
 <div style="display: flex; justify-content: center; align-items: center; width: 100%;">
   <h1>Simple demo</h1> 
